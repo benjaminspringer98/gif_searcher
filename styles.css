@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 10px;
+    width: 100px;
+    height: 35px;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(136, 233, 136, 0.973);   
+}
+
+button:hover {
+    background-color: rgba(127, 209, 127, 0.973);
+}
+
+#content {
+    margin: 20px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
